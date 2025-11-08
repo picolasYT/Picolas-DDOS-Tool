@@ -23,7 +23,7 @@ Picolas DDOS Tool is a powerful Distributed Denial of Service (DDoS) tool design
 1. **Clone the Repository**
 
 ```bash
-   git clone https://github.com/TuUsuario/PicolasDDOSTool.git
+   https://github.com/picolasYT/Picolas-DDOS-Tool
    cd PicolasDDOSTool
 ```
 
