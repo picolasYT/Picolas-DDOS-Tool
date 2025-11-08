@@ -25,3 +25,8 @@ Picolas DDOS Tool is a powerful Distributed Denial of Service (DDoS) tool design
    ```sh
    git clone https://github.com/picolasYT/Picolas-DDOS-Tool.git
    cd Picolas-DDOS-Tool
+
+1. **Usar la herramienta**
+
+      ```sh
+      python3 picolas_ddos_tool.py
