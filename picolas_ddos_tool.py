@@ -4,25 +4,21 @@ import threading
 import time
 import random
 import requests
+from pyfiglet import figlet_format
 from colorama import Fore, Style, init
 
 # Inicializa colorama
 init(autoreset=True)
 
 def print_banner():
-    banner = f"""
-{Fore.RED}   _____ _____ _____ _____ _____ _____ _____ _____ _____
-{Fore.MAGENTA}|     |   __|   __|  |  |   __|   __|     |   __|   __|
-{Fore.RED} |  |  |   __|   __|     |   __|   __|  |  |   __|   __|
-{Fore.MAGENTA}|_____|_____|_____|__|__|_____|_____|_____|_____|_____|
-    """
-    print(banner)
+    banner = figlet_format("Picolas DDOS Tool", font="slant")
+    print(f"{Fore.RED}{banner}")
     print(f"{Fore.GREEN}Author: {Style.BRIGHT}Picolas")
-    print(f"{Fore.GREEN}Github: {Style.BRIGHT}https://files.catbox.moe/730d9i.png")
+    print(f"{Fore.GREEN}Github: {Style.BRIGHT}https://github.com/picolasYT/Picolas-DDOS-Tool")
     print(f"{Fore.YELLOW}For legal purposes only{Style.RESET_ALL}\n")
 
     # Imprime el banner personalizado desde Catbox
-    banner_url = "https://catbox.moe/your-image-url.png"
+    banner_url = "https://files.catbox.moe/730d9i.png"
     print(f"{Fore.BLUE}Banner: {Style.BRIGHT}{banner_url}{Style.RESET_ALL}\n")
 
 def attack_website(domain):
